@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>Video Edits | Odisha Adarsha Vidyalaya, Kalampur</title>
+
+  <link rel="stylesheet" href="style.css">
+
+  <style>
+    .video-page {
+      max-width: 900px;
+      margin: 0 auto;
+      padding: 40px 20px 80px;
+    }
+
+    .video-card {
+      overflow: hidden;
+      border-radius: 28px;
+      border: 1px solid rgba(0, 220, 220, 0.25);
+      background: rgba(0, 35, 45, 0.75);
+      box-shadow: 0 20px 60px rgba(0, 0, 0, 0.35);
+    }
+
+    .video-player {
+      width: 100%;
+      display: block;
+      background: #000;
+      aspect-ratio: 16 / 9;
+    }
+
+    .video-content {
+      padding: 30px;
+    }
+
+    .video-label {
+      color: #d7b45a;
+      font-size: 14px;
+      letter-spacing: 3px;
+      margin-bottom: 15px;
+    }
+
+    .video-title {
+      margin: 0 0 15px;
+      font-size: clamp(32px, 6vw, 58px);
+      line-height: 1.05;
+    }
+
+    .video-description {
+      color: #9bb5bd;
+      font-size: 18px;
+      line-height: 1.7;
+      margin: 0;
+    }
+
+    @media (max-width: 600px) {
+      .video-page {
+        padding: 25px 20px 60px;
+      }
+
+      .video-card {
+        border-radius: 24px;
+      }
+
+      .video-content {
+        padding: 25px;
+      }
+
+      .video-description {
+        font-size: 16px;
+      }
+    }
+  </style>
+</head>
+
+<body>
+
+  <!-- Navigation -->
+  <header class="navbar">
+
+    <div class="nav-logo">
+      Odisha Adarsha Vidyalaya
+
+      <span>
+        KALAMPUR
+      </span>
+    </div>
+
+    <nav class="nav-links">
+      <a href="index.html">Home</a>
+      <a href="about.html">About</a>
+      <a href="photos.html">Photos</a>
+      <a href="videos.html">Video Edits</a>
+    </nav>
+
+  </header>
+
+
+  <!-- Video Page -->
+  <main>
+
+    <section class="video-page">
+
+      <div class="video-card">
+
+        <!-- Your Video -->
+        <video
+          class="video-player"
+          controls
+          playsinline
+          preload="metadata"
+        >
+          <source src="1.mp4" type="video/mp4">
+
+          Your browser does not support HTML5 video.
+        </video>
+
+
+        <!-- Video Information -->
+        <div class="video-content">
+
+          <div class="video-label">
+            STUDENT EDIT
+          </div>
+
+          <h1 class="video-title">
+            Our School Story
+          </h1>
+
+          <p class="video-description">
+            A special video from Odisha Adarsha Vidyalaya,
+            Kalampur. Watch and enjoy our school memories.
+          </p>
+
+        </div>
+
+      </div>
+
+    </section>
+
+  </main>
+
+
+  <!-- Footer -->
+  <footer>
+
+    <div class="footer-title">
+      Odisha Adarsha Vidyalaya, Kalampur
+    </div>
+
+    <div class="footer-subtitle">
+      Learn • Create • Grow
+    </div>
+
+    <div class="footer-credit">
+      Site made by Tanmaya Kumar Rayaguru
+    </div>
+
+    <div class="footer-links">
+      <a href="index.html">Home</a>
+      <a href="about.html">About</a>
+      <a href="photos.html">Photos</a>
+      <a href="videos.html">Video Edits</a>
+    </div>
+
+  </footer>
+
+
+  <script src="script.js"></script>
+
+</body>
+</html>
